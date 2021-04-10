@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d1{ 
+    position: relative;
+    border-color: grey; 
+    border-style:solid ;
+    border-width:80px 40px;
+    display: block;
+}
+h1{
+    position: absolute;
+    color:green;
+    top
+    
+}
