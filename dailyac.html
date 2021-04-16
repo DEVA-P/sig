@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daily-activities</title>
+    <link rel="stylesheet" href=" dailyac.css">
+</head>
+<body>
+    <div class="header" >
+        <div class="left">
+            <h1>DAILY ACTIVITIES</h1> 
+            <h5>Drop your memorable pic of this day below.....</h5>
+            <div class="center"> 
+                  <label for="file-ip-1">Upload Image</label>
+                  <input type="file" id="file-ip-1" accept="image/*" onchange="showPreview(event);">
+                  <div class="preview">
+                    <img id="file-ip-1-preview" src="C:\Users\DEVA\OneDrive\Desktop\deva\html\test\i5.jfif" alt="daily-activities">
+                  </div> 
+            </div> 
+
+        </div>
+        <div class="right">
+            <div class=r1>
+                <div class="r2">
+                        <label for="tile">TITLE :</label>
+                        <input type="text" id="title"  >
+                </div>
+                <div class="c2"> 
+                        <label for="finaldate">Date :</label>
+                        <input id="finaldate" type="date"> 
+                 </div> 
+            </div> 
+            <div class="tex">
+                <label>Share your feeling with me !...</label><br/><br/>
+                <textarea rows="8" cols="50" placeholder="start typing...."></textarea> 
+                <a href="home.html"class="a1">Submit</a>
+            </div>
+           
+         </div>
+        
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
